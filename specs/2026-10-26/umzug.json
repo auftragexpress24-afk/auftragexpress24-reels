@@ -1,0 +1,6 @@
+{"bpm":124,"progression":1,"seed":7,"theme":{"accent":"#22c55e","dark":"#0b1220","dark2":"#132235"},"drop_scene":1,"scenes":[
+{"type":"hook","beats":4,"lines":["Umzug","geplant?"],"sub":"Sparen Sie sich den Stress:"},
+{"type":"versus","beats":5,"bad_title":"Ohne Vergleich","bad":"Stundenlang telefonieren","good_title":"Mit uns","good":"1 Anfrage, 3 Angebote"},
+{"type":"steps","beats":5,"title":"So geht's","items":["Umzug beschreiben","Angebote erhalten","Bestes auswählen"]},
+{"type":"ticker","beats":4,"label":"Umzugsfirmen in","words":["Dormagen","Neuss","Köln","Düsseldorf","Leverkusen","Ihrer Nähe"]},
+{"type":"cta","beats":8,"lines":["Jetzt kostenlos","anfragen!"],"button":"auftragexpress24.de","sub":"Antwort in 24 Stunden","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

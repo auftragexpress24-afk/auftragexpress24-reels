@@ -1,1 +1,129 @@
-[]
+[
+ {
+  "datum": "2026-10-26",
+  "dienstleistung": "Maler",
+  "hook": "Maler gesucht?",
+  "idee": "Erst vergleichen statt Erstbesten nehmen; große 3; Vorteile; Städte-Ticker",
+  "szenen": [
+   "hook",
+   "statement",
+   "bignumber",
+   "list",
+   "ticker",
+   "cta"
+  ],
+  "datei": "reels/2026-10-26-maler.mp4"
+ },
+ {
+  "datum": "2026-10-26",
+  "dienstleistung": "Abbrucharbeiten",
+  "hook": "Stopp! Nicht selbst abreißen.",
+  "idee": "Warnung: nicht selbst abreißen, Profis entsorgen fachgerecht",
+  "szenen": [
+   "hook",
+   "statement",
+   "list",
+   "ticker",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-26-abbruch.mp4"
+ },
+ {
+  "datum": "2026-10-26",
+  "dienstleistung": "Bodenleger",
+  "hook": "Neuer Boden vor dem Winter?",
+  "idee": "Neuer Boden vor dem Winter, 3 Schritte",
+  "szenen": [
+   "hook",
+   "bignumber",
+   "steps",
+   "list",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-26-bodenleger.mp4"
+ },
+ {
+  "datum": "2026-10-26",
+  "dienstleistung": "Entrümpelung",
+  "hook": "Keller voll? Dachboden auch?",
+  "idee": "Keller/Dachboden voll, 0 € Anfrage",
+  "szenen": [
+   "hook",
+   "bignumber",
+   "list",
+   "ticker",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-26-entruempelung.mp4"
+ },
+ {
+  "datum": "2026-10-26",
+  "dienstleistung": "Lieferung & Kurier",
+  "hook": "Muss heute noch weg?",
+  "idee": "Muss heute noch weg – Kurier finden",
+  "szenen": [
+   "hook",
+   "statement",
+   "list",
+   "bignumber",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-26-lieferung.mp4"
+ },
+ {
+  "datum": "2026-10-26",
+  "dienstleistung": "Reinigung",
+  "hook": "Grundreinigung nach Auszug?",
+  "idee": "Grundreinigung nach Auszug, selbst putzen vs Profi",
+  "szenen": [
+   "hook",
+   "versus",
+   "list",
+   "bignumber",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-26-reinigung.mp4"
+ },
+ {
+  "datum": "2026-10-26",
+  "dienstleistung": "Sicherheitsdienst",
+  "hook": "Event geplant? Sicher?",
+  "idee": "Event-Sicherheit wird oft zu spät geplant",
+  "szenen": [
+   "hook",
+   "statement",
+   "list",
+   "steps",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-26-sicherheitsdienst.mp4"
+ },
+ {
+  "datum": "2026-10-26",
+  "dienstleistung": "Umzug & Transport",
+  "hook": "Umzug geplant?",
+  "idee": "Ohne Vergleich telefonieren vs 1 Anfrage",
+  "szenen": [
+   "hook",
+   "versus",
+   "steps",
+   "ticker",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-26-umzug.mp4"
+ },
+ {
+  "datum": "2026-10-26",
+  "dienstleistung": "Verkehrssicherung",
+  "hook": "Baustelle an der Straße?",
+  "idee": "Baustelle an der Straße braucht Absicherung",
+  "szenen": [
+   "hook",
+   "statement",
+   "list",
+   "bignumber",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-26-verkehrssicherung.mp4"
+ }
+]

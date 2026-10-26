@@ -1,0 +1,6 @@
+{"bpm":118,"progression":5,"seed":31,"theme":{"accent":"#38bdf8","dark":"#0c1a2b","dark2":"#13263d"},"drop_scene":2,"scenes":[
+{"type":"hook","beats":4,"lines":["Grundreinigung","nach Auszug?"],"sub":"Das spart Ihnen Ärger:"},
+{"type":"versus","beats":5,"bad_title":"Selbst putzen","bad":"Ganzes Wochenende weg","good_title":"Profi buchen","good":"Sauber & übergabefertig"},
+{"type":"list","beats":6,"title":"Reinigung für","items":["Wohnung & Haus","Büro & Gewerbe","Fenster & Glas","Grundreinigung"]},
+{"type":"bignumber","beats":5,"number":"24h","lines":["Antwort"],"small":"von geprüften Reinigungsfirmen"},
+{"type":"cta","beats":8,"lines":["Jetzt kostenlos","anfragen!"],"button":"auftragexpress24.de","sub":"Bis zu 3 Angebote","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

@@ -1,0 +1,6 @@
+{"bpm":128,"progression":2,"seed":41,"theme":{"accent":"#f472b6","dark":"#1a1025","dark2":"#261633"},"drop_scene":2,"scenes":[
+{"type":"hook","beats":4,"lines":["Muss heute","noch weg?"],"sub":"Kurier in Ihrer Nähe:"},
+{"type":"statement","beats":4,"lines":["Möbel, Ware","oder Dokumente"],"highlight":"Schnell geliefert."},
+{"type":"list","beats":6,"title":"Lieferung & Kurier","items":["Kurierfahrten","Möbellieferung","Warentransport","Geprüfte Betriebe"]},
+{"type":"bignumber","beats":5,"number":"2 Min.","lines":["Anfrage"],"small":"kostenlos & ohne Registrierung"},
+{"type":"cta","beats":8,"lines":["Jetzt Kurier","finden!"],"button":"auftragexpress24.de","sub":"Bis zu 3 Angebote","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

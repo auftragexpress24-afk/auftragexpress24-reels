@@ -1,0 +1,6 @@
+{"bpm":116,"progression":3,"seed":71,"theme":{"accent":"#ef4444","dark":"#111111","dark2":"#1c1c1c"},"drop_scene":2,"scenes":[
+{"type":"hook","beats":4,"lines":["Baustelle an","der Straße?"],"sub":"Ohne Absicherung geht's nicht:"},
+{"type":"statement","beats":5,"lines":["Schilder, Absperrung,","Anordnung"],"highlight":"Profis kümmern sich."},
+{"type":"list","beats":6,"title":"Verkehrssicherung","items":["Baustellen absichern","Beschilderung","Verkehrsrechtl. Anordnung"]},
+{"type":"bignumber","beats":5,"number":"3","lines":["Angebote"],"small":"von geprüften Fachbetrieben"},
+{"type":"cta","beats":8,"lines":["Jetzt kostenlos","anfragen!"],"button":"auftragexpress24.de","sub":"Antwort in 24 Stunden","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

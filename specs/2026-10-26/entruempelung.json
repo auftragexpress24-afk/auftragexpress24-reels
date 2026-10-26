@@ -1,0 +1,6 @@
+{"bpm":120,"progression":4,"seed":61,"theme":{"accent":"#f59e0b","dark":"#14110f","dark2":"#211c18"},"drop_scene":1,"scenes":[
+{"type":"hook","beats":4,"lines":["Keller voll?","Dachboden auch?"],"sub":"Jetzt ist die beste Zeit:"},
+{"type":"bignumber","beats":6,"number":"0 €","lines":["für Ihre","Anfrage"],"small":"bis zu 3 Angebote vergleichen"},
+{"type":"list","beats":6,"title":"Wir finden Profis für","items":["Wohnung & Haus","Keller & Dachboden","Haushaltsauflösung","Gewerbe"]},
+{"type":"ticker","beats":4,"label":"Entrümpelung in","words":["Dormagen","Neuss","Köln","Düsseldorf","Leverkusen","ganz NRW"]},
+{"type":"cta","beats":8,"lines":["Jetzt Platz","schaffen!"],"button":"auftragexpress24.de","sub":"Anfrage in 2 Minuten","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

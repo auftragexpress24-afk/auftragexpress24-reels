@@ -1,0 +1,6 @@
+{"bpm":110,"progression":0,"seed":53,"theme":{"accent":"#a78bfa","dark":"#0f0f1a","dark2":"#1a1a2e"},"drop_scene":2,"scenes":[
+{"type":"hook","beats":4,"lines":["Event geplant?","Sicher?"],"sub":"Daran denken viele zu spät:"},
+{"type":"statement","beats":5,"lines":["Einlass, Schutz","und Streife"],"highlight":"Gehören zur Planung."},
+{"type":"list","beats":6,"title":"Sicherheitsdienst","items":["Eventschutz","Werkschutz","Doorman & Einlass","Streifendienst"]},
+{"type":"steps","beats":5,"title":"So einfach","items":["Bedarf beschreiben","Angebote erhalten","Dienst auswählen"]},
+{"type":"cta","beats":8,"lines":["Jetzt kostenlos","anfragen!"],"button":"auftragexpress24.de","sub":"Antwort in 24 Stunden","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}
