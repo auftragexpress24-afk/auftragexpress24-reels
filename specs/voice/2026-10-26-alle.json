@@ -1,0 +1,11 @@
+{"bpm":112,"progression":0,"seed":5,"theme":{"accent":"#f59e0b","dark":"#0f172a","dark2":"#1e293b"},
+"segments":[
+{"say":"Sie suchen einen Handwerker in N. R. W.? Dann hören Sie kurz zu!","show":"Sie suchen einen Handwerker in NRW? Dann hören Sie kurz zu!","visual":{"type":"headline","lines":["Handwerker","gesucht?"]}},
+{"say":"Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Fachbetrieben.","show":"Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Fachbetrieben.","visual":{"type":"number","number":"3","lines":["kostenlose","Angebote"]}},
+{"say":"Ob Maler, Bodenleger oder Abbrucharbeiten.","show":"Ob Maler, Bodenleger oder Abbrucharbeiten.","visual":{"type":"chips","items":["Maler","Bodenleger","Abbrucharbeiten"]}},
+{"say":"Reinigung, Umzug und Transport, oder Lieferung und Kurier.","show":"Reinigung, Umzug & Transport, oder Lieferung & Kurier.","visual":{"type":"chips","items":["Reinigung","Umzug & Transport","Lieferung & Kurier"]}},
+{"say":"Sicherheitsdienst, Entrümpelung, und sogar Verkehrssicherung.","show":"Sicherheitsdienst, Entrümpelung und sogar Verkehrssicherung.","visual":{"type":"chips","items":["Sicherheitsdienst","Entrümpelung","Verkehrssicherung"]}},
+{"say":"Die Anfrage dauert nur zwei Minuten, ganz ohne Registrierung. Antwort innerhalb von vierundzwanzig Stunden.","show":"Die Anfrage dauert nur 2 Minuten, ganz ohne Registrierung. Antwort innerhalb von 24 Stunden.","visual":{"type":"headline","lines":["2 Minuten","Antwort in 24h"]}},
+{"say":"In Dormagen, Neuss, Köln, Düsseldorf und Leverkusen.","show":"In Dormagen, Neuss, Köln, Düsseldorf und Leverkusen.","visual":{"type":"ticker","label":"Profis in","words":["Dormagen","Neuss","Köln","Düsseldorf","Leverkusen"]}},
+{"say":"Jetzt kostenlos anfragen, auf auftrag express vierundzwanzig punkt d e. Der Link ist in der Bio!","show":"Jetzt kostenlos anfragen auf auftragexpress24.de – Link in der Bio!","visual":{"type":"cta","lines":["Jetzt kostenlos","anfragen!"],"button":"auftragexpress24.de","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}}
+]}
