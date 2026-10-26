@@ -32,9 +32,17 @@ def tts(text, voice, out, speed):
             except Exception:
                 pass
         syn = _SYN[voice]
-        wav = np.array(syn.tts(text), dtype=np.float32)
         sr = syn.output_sample_rate
-        x = wav
+        # Satzweise sprechen und Pausen zwischen Sätzen kurz halten (Standard wäre ~1 s Stille)
+        import re
+        parts = [p.strip() for p in re.split(r"(?<=[.!?])\s+", text) if p.strip()]
+        chunks = []
+        for p in parts:
+            w = np.array(syn.tts(p, split_sentences=False), dtype=np.float32)
+            a = np.abs(w); idx = np.where(a > 0.02 * a.max())[0]
+            if len(idx): w = w[max(0, idx[0] - int(0.02 * sr)): idx[-1] + int(0.06 * sr)]
+            chunks += [w, np.zeros(int(0.22 * sr), np.float32)]
+        x = np.concatenate(chunks[:-1]) if chunks else np.zeros(1, np.float32)
     else:
         subprocess.run([sys.executable, "-m", "piper", "-m", voice, "-f", out, "--length-scale", str(speed),
                         "--sentence-silence", "0.0"], input=text.encode(), check=True, capture_output=True)
