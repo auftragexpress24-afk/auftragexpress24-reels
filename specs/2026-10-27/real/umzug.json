@@ -1,0 +1,6 @@
+{"voice":"thorsten-high","speed":0.95,"theme":{"accent":"#a78bfa"},"music":{"bpm":112,"progression":3,"seed":7,"volume":0.14},
+"segments":[
+{"say":"Bald in die neue Wohnung?","headline":["Bald in die","neue Wohnung?"],"clip":{"pexels":7347874},"start":1.0},
+{"say":"Kartons schleppen müssen Sie nicht allein.","clip":{"pexels":7463923},"start":2.0},
+{"say":"Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Umzugsfirmen.","show":"Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Umzugsfirmen.","clip":{"pexels":5054382},"start":0.5}],
+"cta":{"say":"Ganz entspannt anfragen. Der Link ist in der Bio.","lines":["Umzug geplant?","Wir helfen gern."],"button":"auftragexpress24.de","sub":"Antwort in 24 Stunden","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}}

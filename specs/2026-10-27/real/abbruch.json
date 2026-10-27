@@ -1,0 +1,54 @@
+{
+ "voice": "thorsten-high",
+ "speed": 0.95,
+ "theme": {
+  "accent": "#ef4444"
+ },
+ "music": {
+  "bpm": 110,
+  "progression": 3,
+  "seed": 21,
+  "volume": 0.13
+ },
+ "segments": [
+  {
+   "say": "Die alte Wand soll weg?",
+   "headline": [
+    "Die alte Wand",
+    "soll weg?"
+   ],
+   "clip": {
+    "pexels": 855672
+   },
+   "start": 1.0,
+   "focus": 0.6
+  },
+  {
+   "say": "Rückbau ist eine Arbeit für Profis.",
+   "clip": {
+    "pexels": 1654928
+   },
+   "start": 2.0
+  },
+  {
+   "say": "Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Abbruchbetrieben.",
+   "show": "Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Abbruchbetrieben.",
+   "clip": {
+    "pexels": 10971670
+   },
+   "start": 3.0,
+   "focus": 0.4
+  }
+ ],
+ "cta": {
+  "say": "Ganz einfach anfragen. Der Link ist in der Bio.",
+  "lines": [
+   "Abbruch geplant?",
+   "Wir helfen gern."
+  ],
+  "button": "auftragexpress24.de",
+  "sub": "Rückbau · Entkernung · Entsorgung",
+  "phone": "Tel. 02133 7787688",
+  "foot": "Link in der Bio"
+ }
+}

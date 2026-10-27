@@ -1,0 +1,53 @@
+{
+ "voice": "thorsten-high",
+ "speed": 0.95,
+ "theme": {
+  "accent": "#38bdf8"
+ },
+ "music": {
+  "bpm": 104,
+  "progression": 0,
+  "seed": 31,
+  "volume": 0.13
+ },
+ "segments": [
+  {
+   "say": "Sie planen ein Event oder möchten Ihr Gelände schützen?",
+   "headline": [
+    "Sicherheit für",
+    "Ihr Event?"
+   ],
+   "clip": {
+    "pexels": 39839700
+   },
+   "start": 1.0
+  },
+  {
+   "say": "Ein Sicherheitsdienst behält alles im Blick.",
+   "clip": {
+    "pexels": 39609963
+   },
+   "start": 6.0,
+   "focus": 0.75
+  },
+  {
+   "say": "Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Sicherheitsdiensten.",
+   "show": "Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Sicherheitsdiensten.",
+   "clip": {
+    "pexels": 39839700
+   },
+   "start": 12.0
+  }
+ ],
+ "cta": {
+  "say": "Ganz einfach anfragen. Der Link ist in der Bio.",
+  "lines": [
+   "Sicherheitsdienst?",
+   "Wir helfen gern."
+  ],
+  "button": "auftragexpress24.de",
+  "sub": "Antwort in 24 Stunden",
+  "phone": "Tel. 02133 7787688",
+  "foot": "Link in der Bio"
+ }
+}

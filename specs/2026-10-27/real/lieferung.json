@@ -1,0 +1,53 @@
+{
+ "voice": "thorsten-high",
+ "speed": 0.95,
+ "theme": {
+  "accent": "#facc15"
+ },
+ "music": {
+  "bpm": 120,
+  "progression": 1,
+  "seed": 13,
+  "volume": 0.13
+ },
+ "segments": [
+  {
+   "say": "Etwas muss schnell ankommen?",
+   "headline": [
+    "Etwas muss",
+    "schnell ankommen?"
+   ],
+   "clip": {
+    "pexels": 6170438
+   },
+   "start": 0.5
+  },
+  {
+   "say": "Ein Kurier bringt es direkt vor die Tür.",
+   "clip": {
+    "pexels": 7362668
+   },
+   "start": 0.5
+  },
+  {
+   "say": "Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Kurierdiensten.",
+   "show": "Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Kurierdiensten.",
+   "clip": {
+    "pexels": 6715794
+   },
+   "start": 1.0,
+   "focus": 0.35
+  }
+ ],
+ "cta": {
+  "say": "Ganz einfach anfragen. Der Link ist in der Bio.",
+  "lines": [
+   "Kurier gesucht?",
+   "Wir helfen gern."
+  ],
+  "button": "auftragexpress24.de",
+  "sub": "Bis zu 3 Angebote – kostenlos",
+  "phone": "Tel. 02133 7787688",
+  "foot": "Link in der Bio"
+ }
+}

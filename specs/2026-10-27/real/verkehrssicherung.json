@@ -1,0 +1,53 @@
+{
+ "voice": "thorsten-high",
+ "speed": 0.95,
+ "theme": {
+  "accent": "#fb923c"
+ },
+ "music": {
+  "bpm": 118,
+  "progression": 5,
+  "seed": 51,
+  "volume": 0.13
+ },
+ "segments": [
+  {
+   "say": "Sie bauen an der Straße?",
+   "headline": [
+    "Baustelle an",
+    "der Straße?"
+   ],
+   "clip": {
+    "pexels": 38414842
+   },
+   "start": 1.0
+  },
+  {
+   "say": "Dann muss die Baustelle gut abgesichert sein.",
+   "clip": {
+    "pexels": 7163092
+   },
+   "start": 3.0,
+   "focus": 0.4
+  },
+  {
+   "say": "Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Fachbetrieben für Verkehrssicherung.",
+   "show": "Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Fachbetrieben für Verkehrssicherung.",
+   "clip": {
+    "pexels": 4430419
+   },
+   "start": 2.0
+  }
+ ],
+ "cta": {
+  "say": "Ganz einfach anfragen. Der Link ist in der Bio.",
+  "lines": [
+   "Absicherung nötig?",
+   "Wir helfen gern."
+  ],
+  "button": "auftragexpress24.de",
+  "sub": "Antwort in 24 Stunden",
+  "phone": "Tel. 02133 7787688",
+  "foot": "Link in der Bio"
+ }
+}

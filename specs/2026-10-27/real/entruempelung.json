@@ -1,0 +1,54 @@
+{
+ "voice": "thorsten-high",
+ "speed": 0.95,
+ "theme": {
+  "accent": "#f472b6"
+ },
+ "music": {
+  "bpm": 114,
+  "progression": 2,
+  "seed": 41,
+  "volume": 0.13
+ },
+ "segments": [
+  {
+   "say": "Keller oder Wohnung endlich wieder frei?",
+   "headline": [
+    "Endlich wieder",
+    "Platz?"
+   ],
+   "clip": {
+    "pexels": 7463923
+   },
+   "start": 1.0
+  },
+  {
+   "say": "Profis räumen aus und kümmern sich um die Entsorgung.",
+   "clip": {
+    "pexels": 12588076
+   },
+   "start": 3.0,
+   "focus": 0.5
+  },
+  {
+   "say": "Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Entrümpelungsfirmen.",
+   "show": "Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Entrümpelungsfirmen.",
+   "clip": {
+    "pexels": 7578014
+   },
+   "start": 1.0,
+   "focus": 0.45
+  }
+ ],
+ "cta": {
+  "say": "Ganz einfach anfragen. Der Link ist in der Bio.",
+  "lines": [
+   "Entrümpelung?",
+   "Wir helfen gern."
+  ],
+  "button": "auftragexpress24.de",
+  "sub": "Anfrage in 2 Minuten",
+  "phone": "Tel. 02133 7787688",
+  "foot": "Link in der Bio"
+ }
+}

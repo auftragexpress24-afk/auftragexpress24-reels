@@ -1,0 +1,52 @@
+{
+ "voice": "thorsten-high",
+ "speed": 0.95,
+ "theme": {
+  "accent": "#2dd4bf"
+ },
+ "music": {
+  "bpm": 116,
+  "progression": 4,
+  "seed": 9,
+  "volume": 0.13
+ },
+ "segments": [
+  {
+   "say": "Endlich wieder klare Sicht?",
+   "headline": [
+    "Endlich wieder",
+    "klare Sicht?"
+   ],
+   "clip": {
+    "pexels": 4440686
+   },
+   "start": 0.5
+  },
+  {
+   "say": "Lassen Sie einfach die Profis ran.",
+   "clip": {
+    "pexels": 6196264
+   },
+   "start": 3.0
+  },
+  {
+   "say": "Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Reinigungsfirmen.",
+   "show": "Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Reinigungsfirmen.",
+   "clip": {
+    "pexels": 7641635
+   },
+   "start": 4.0
+  }
+ ],
+ "cta": {
+  "say": "Ganz einfach anfragen. Der Link ist in der Bio.",
+  "lines": [
+   "Reinigung gesucht?",
+   "Wir helfen gern."
+  ],
+  "button": "auftragexpress24.de",
+  "sub": "Antwort in 24 Stunden",
+  "phone": "Tel. 02133 7787688",
+  "foot": "Link in der Bio"
+ }
+}

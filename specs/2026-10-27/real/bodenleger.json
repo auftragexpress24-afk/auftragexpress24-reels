@@ -1,0 +1,53 @@
+{
+ "voice": "thorsten-high",
+ "speed": 0.95,
+ "theme": {
+  "accent": "#f59e0b"
+ },
+ "music": {
+  "bpm": 108,
+  "progression": 4,
+  "seed": 61,
+  "volume": 0.13
+ },
+ "segments": [
+  {
+   "say": "Lust auf einen neuen Boden?",
+   "headline": [
+    "Lust auf einen",
+    "neuen Boden?"
+   ],
+   "clip": {
+    "pexels": 29513615
+   },
+   "start": 1.0
+  },
+  {
+   "say": "Parkett, Laminat, Vinyl oder Fliesen.",
+   "clip": {
+    "pexels_photo": 4263067
+   },
+   "start": 0.0,
+   "focus": 0.4
+  },
+  {
+   "say": "Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Bodenlegern.",
+   "show": "Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Bodenlegern.",
+   "clip": {
+    "pexels": 19228170
+   },
+   "start": 2.0
+  }
+ ],
+ "cta": {
+  "say": "Ganz einfach anfragen. Der Link ist in der Bio.",
+  "lines": [
+   "Bodenleger gesucht?",
+   "Wir helfen gern."
+  ],
+  "button": "auftragexpress24.de",
+  "sub": "Bis zu 3 Angebote – kostenlos",
+  "phone": "Tel. 02133 7787688",
+  "foot": "Link in der Bio"
+ }
+}
