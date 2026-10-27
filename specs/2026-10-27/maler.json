@@ -1,0 +1,6 @@
+{"bpm":111,"progression":0,"seed":157,"theme":{"accent":"#34d399","dark":"#08160f","dark2":"#10241a"},"drop_scene":2,"scenes":[
+{"type":"hook","beats":5,"lines":["Streichen","im Winter?"],"sub":"Drinnen klappt das gut:"},
+{"type":"versus","beats":5,"bad_title":"Fassade","bad":"Besser bei mildem Wetter","good_title":"Innenräume","good":"Ganzjährig möglich"},
+{"type":"steps","beats":5,"title":"Gut vorbereitet","items":["Räume & Wünsche notieren","Angebote vergleichen","Termin festlegen"]},
+{"type":"bignumber","beats":5,"number":"3","lines":["Angebote"],"small":"von geprüften Malerbetrieben"},
+{"type":"cta","beats":8,"lines":["Maler jetzt","finden!"],"button":"auftragexpress24.de","sub":"Antwort in 24 Stunden","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

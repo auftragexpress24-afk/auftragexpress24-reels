@@ -1,0 +1,6 @@
+{"bpm":127,"progression":0,"seed":127,"theme":{"accent":"#facc15","dark":"#14120a","dark2":"#221e10"},"drop_scene":2,"scenes":[
+{"type":"hook","beats":5,"lines":["Weihnachts-","geschäft naht!"],"sub":"Ist Ihre Logistik bereit?"},
+{"type":"statement","beats":5,"lines":["Ware muss","pünktlich","ankommen."],"highlight":"Jetzt vorsorgen."},
+{"type":"ticker","beats":4,"label":"Wir vermitteln","words":["Kurierfahrten","Warentransport","Möbellieferung","Ihren Kurier"]},
+{"type":"bignumber","beats":5,"number":"3","lines":["Angebote"],"small":"für Ihren Transport – unverbindlich"},
+{"type":"cta","beats":8,"lines":["Kurier jetzt","anfragen!"],"button":"auftragexpress24.de","sub":"Antwort in 24 Stunden","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

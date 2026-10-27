@@ -1,0 +1,6 @@
+{"bpm":108,"progression":1,"seed":131,"theme":{"accent":"#38bdf8","dark":"#070d1a","dark2":"#0f1a2e"},"drop_scene":1,"scenes":[
+{"type":"hook","beats":5,"lines":["Es wird","früher dunkel."],"sub":"Ist Ihr Gelände geschützt?"},
+{"type":"versus","beats":5,"bad_title":"Unbewacht","bad":"Abends niemand vor Ort","good_title":"Mit Sicherheitsdienst","good":"Streife & Werkschutz"},
+{"type":"list","beats":6,"title":"Für Gewerbe","items":["Werkschutz","Streifendienst","Doorman","Eventschutz"]},
+{"type":"ticker","beats":4,"label":"Schutz für","words":["Firmengelände","Lager","Baustelle","Event","Ihr Objekt"]},
+{"type":"cta","beats":8,"lines":["Sicherheit","anfragen!"],"button":"auftragexpress24.de","sub":"Bis zu 3 Angebote","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

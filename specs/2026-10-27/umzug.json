@@ -1,0 +1,6 @@
+{"bpm":122,"progression":5,"seed":113,"theme":{"accent":"#a78bfa","dark":"#120f1f","dark2":"#1d1830"},"drop_scene":1,"scenes":[
+{"type":"hook","beats":5,"lines":["Fehler Nr. 1","beim Umzug:"],"sub":"Zu spät anfragen."},
+{"type":"list","beats":6,"title":"Früh klären","items":["Termin & Stockwerk","Möbelmontage nötig?","Transporter-Größe","Halteverbot nötig?"]},
+{"type":"statement","beats":5,"lines":["Wer früh fragt,","hat die Wahl."],"highlight":"Gerade zum Monatsende."},
+{"type":"bignumber","beats":5,"number":"24h","lines":["Antwort"],"small":"von geprüften Umzugsfirmen"},
+{"type":"cta","beats":8,"lines":["Umzug jetzt","planen!"],"button":"auftragexpress24.de","sub":"Bis zu 3 Angebote – kostenlos","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

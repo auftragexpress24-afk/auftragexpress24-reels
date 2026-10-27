@@ -1,0 +1,6 @@
+{"bpm":125,"progression":4,"seed":149,"theme":{"accent":"#fb923c","dark":"#1a0f08","dark2":"#2a190d"},"drop_scene":1,"scenes":[
+{"type":"hook","beats":5,"lines":["Wussten Sie","schon?"],"sub":"Nicht einfach loslegen!"},
+{"type":"statement","beats":6,"lines":["Arbeiten auf","Gehweg oder","Straße?"],"highlight":"Oft Anordnung nötig."},
+{"type":"list","beats":6,"title":"Vorher klären","items":["Verkehrsrechtl. Anordnung","Beschilderung","Baustelle absichern","Früh genug anfragen"]},
+{"type":"ticker","beats":4,"label":"Verkehrssicherung in","words":["Dormagen","Neuss","Köln","Düsseldorf","Leverkusen","Umgebung"]},
+{"type":"cta","beats":8,"lines":["Absicherung","anfragen!"],"button":"auftragexpress24.de","sub":"Antwort in 24 Stunden","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

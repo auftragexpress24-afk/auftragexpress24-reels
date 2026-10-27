@@ -125,5 +125,131 @@
    "cta"
   ],
   "datei": "media/m/2026-10-26-verkehrssicherung.mp4"
+ },
+ {
+  "datum": "2026-10-27",
+  "dienstleistung": "Reinigung",
+  "hook": "Vermieter? Verwalter?",
+  "idee": "Herbst: Laub & Matsch im Treppenhaus – Gebäudereinigung für Vermieter/Hausverwaltung",
+  "szenen": [
+   "hook",
+   "statement",
+   "list",
+   "bignumber",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-27-reinigung.mp4"
+ },
+ {
+  "datum": "2026-10-27",
+  "dienstleistung": "Umzug & Transport",
+  "hook": "Fehler Nr. 1 beim Umzug: Zu spät anfragen.",
+  "idee": "Typischer Fehler: zu spät anfragen; Checkliste was vorab klären (Etage, Montage, Transporter, Halteverbot)",
+  "szenen": [
+   "hook",
+   "list",
+   "statement",
+   "bignumber",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-27-umzug.mp4"
+ },
+ {
+  "datum": "2026-10-27",
+  "dienstleistung": "Lieferung & Kurier",
+  "hook": "Weihnachtsgeschäft naht!",
+  "idee": "Gewerbe/Händler: Logistik vor dem Weihnachtsgeschäft absichern",
+  "szenen": [
+   "hook",
+   "statement",
+   "ticker",
+   "bignumber",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-27-lieferung.mp4"
+ },
+ {
+  "datum": "2026-10-27",
+  "dienstleistung": "Sicherheitsdienst",
+  "hook": "Es wird früher dunkel.",
+  "idee": "Zeitumstellung: lange dunkle Abende, Gelände unbewacht vs. Streife/Werkschutz",
+  "szenen": [
+   "hook",
+   "versus",
+   "list",
+   "ticker",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-27-sicherheitsdienst.mp4"
+ },
+ {
+  "datum": "2026-10-27",
+  "dienstleistung": "Entrümpelung",
+  "hook": "Mieter weg. Sachen noch da?",
+  "idee": "Vermieter: Wohnung nach Auszug leer räumen lassen, 3 Schritte",
+  "szenen": [
+   "hook",
+   "statement",
+   "steps",
+   "bignumber",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-27-entruempelung.mp4"
+ },
+ {
+  "datum": "2026-10-27",
+  "dienstleistung": "Verkehrssicherung",
+  "hook": "Wussten Sie schon?",
+  "idee": "Arbeiten auf Gehweg/Straße brauchen oft verkehrsrechtliche Anordnung – Checkliste vorher klären",
+  "szenen": [
+   "hook",
+   "statement",
+   "list",
+   "ticker",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-27-verkehrssicherung.mp4"
+ },
+ {
+  "datum": "2026-10-27",
+  "dienstleistung": "Maler",
+  "hook": "Streichen im Winter?",
+  "idee": "Saison: Fassade bei mildem Wetter, Innenräume ganzjährig; Vorbereitung in 3 Schritten",
+  "szenen": [
+   "hook",
+   "versus",
+   "steps",
+   "bignumber",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-27-maler.mp4"
+ },
+ {
+  "datum": "2026-10-27",
+  "dienstleistung": "Abbrucharbeiten",
+  "hook": "3 Fragen vor dem Abbruch!",
+  "idee": "Kosten-Fallen vermeiden: 3 Fragen ans Angebot (Entsorgung, Umfang, Zeitplan)",
+  "szenen": [
+   "hook",
+   "list",
+   "statement",
+   "ticker",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-27-abbruch.mp4"
+ },
+ {
+  "datum": "2026-10-27",
+  "dienstleistung": "Bodenleger",
+  "hook": "Parkett oder Vinyl?",
+  "idee": "Entscheidungshilfe: Fußbodenheizung, Haustiere, Feuchträume",
+  "szenen": [
+   "hook",
+   "statement",
+   "ticker",
+   "bignumber",
+   "cta"
+  ],
+  "datei": "media/m/2026-10-27-bodenleger.mp4"
  }
 ]

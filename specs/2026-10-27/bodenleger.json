@@ -1,0 +1,6 @@
+{"bpm":116,"progression":5,"seed":173,"theme":{"accent":"#f59e0b","dark":"#16110a","dark2":"#241c10"},"drop_scene":2,"scenes":[
+{"type":"hook","beats":5,"lines":["Parkett","oder Vinyl?"],"sub":"Darauf kommt es an:"},
+{"type":"statement","beats":6,"lines":["Fußbodenheizung?","Haustiere?","Feuchte Räume?"],"highlight":"Das entscheidet mit."},
+{"type":"ticker","beats":4,"label":"Profis für","words":["Parkett","Laminat","Vinyl","Fliesen","Ihren Boden"]},
+{"type":"bignumber","beats":5,"number":"2 Min.","lines":["Anfrage"],"small":"kostenlos & unverbindlich"},
+{"type":"cta","beats":8,"lines":["Bodenleger","finden!"],"button":"auftragexpress24.de","sub":"Bis zu 3 Angebote","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

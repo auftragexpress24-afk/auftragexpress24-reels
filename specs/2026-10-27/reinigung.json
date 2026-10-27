@@ -1,0 +1,6 @@
+{"bpm":114,"progression":2,"seed":107,"theme":{"accent":"#2dd4bf","dark":"#0a1a1a","dark2":"#112626"},"drop_scene":1,"scenes":[
+{"type":"hook","beats":5,"lines":["Vermieter?","Verwalter?"],"sub":"Das sehen Mieter zuerst:"},
+{"type":"statement","beats":6,"lines":["Laub, Nässe,","Matsch im","Treppenhaus."],"highlight":"Herbst = Putzzeit."},
+{"type":"list","beats":6,"title":"Reinigung für","items":["Treppenhaus & Gebäude","Grundreinigung","Fenster & Glas","Gewerbeobjekte"]},
+{"type":"bignumber","beats":5,"number":"2 Min.","lines":["Anfrage"],"small":"kostenlos & ohne Registrierung"},
+{"type":"cta","beats":8,"lines":["Reinigung","anfragen!"],"button":"auftragexpress24.de","sub":"Bis zu 3 Angebote","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

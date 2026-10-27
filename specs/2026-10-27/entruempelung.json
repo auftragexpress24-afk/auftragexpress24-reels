@@ -1,0 +1,6 @@
+{"bpm":118,"progression":3,"seed":139,"theme":{"accent":"#f472b6","dark":"#1a0d14","dark2":"#2a1521"},"drop_scene":2,"scenes":[
+{"type":"hook","beats":5,"lines":["Mieter weg.","Sachen noch da?"],"sub":"So wird die Wohnung frei:"},
+{"type":"statement","beats":5,"lines":["Wohnung, Keller,","Dachboden"],"highlight":"Profis räumen leer."},
+{"type":"steps","beats":5,"title":"In 3 Schritten","items":["Räume beschreiben","Angebote vergleichen","Termin festlegen"]},
+{"type":"bignumber","beats":5,"number":"24h","lines":["Antwort"],"small":"kostenlos & unverbindlich"},
+{"type":"cta","beats":8,"lines":["Entrümpelung","anfragen!"],"button":"auftragexpress24.de","sub":"Anfrage in 2 Minuten","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}
