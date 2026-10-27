@@ -1,0 +1,7 @@
+{"trade":"maler","bpm":112,"progression":0,"seed":3,"theme":{"accent":"#22c55e","caption":"#fde047","paint":"#34d399","wall":"#fef3c7"},
+"look":{"skin":"#e0ac69","hair":"#2d1b0e"},
+"scenes":[
+{"beats":5,"action":"walk_in","caption":["Wand grau","und fleckig?"],"bubble":"Kein Problem!"},
+{"beats":7,"action":"work","caption":["Rolle raus –","los geht's!"],"fx":"ZACK!"},
+{"beats":4,"action":"thumbs","caption":["Frisch","gestrichen!"],"bubble":"Fertig!"},
+{"beats":8,"action":"cta","lines":["Maler","gesucht?"],"button":"auftragexpress24.de","sub":"Bis zu 3 Angebote – kostenlos","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

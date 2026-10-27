@@ -12,7 +12,8 @@
    "ticker",
    "cta"
   ],
-  "datei": "reels/2026-10-26-maler.mp4"
+  "datei": "reels/2026-10-26-maler.mp4",
+  "stil": "text"
  },
  {
   "datum": "2026-10-26",
@@ -26,7 +27,8 @@
    "ticker",
    "cta"
   ],
-  "datei": "media/m/2026-10-26-abbruch.mp4"
+  "datei": "media/m/2026-10-26-abbruch.mp4",
+  "stil": "text"
  },
  {
   "datum": "2026-10-26",
@@ -40,7 +42,8 @@
    "list",
    "cta"
   ],
-  "datei": "media/m/2026-10-26-bodenleger.mp4"
+  "datei": "media/m/2026-10-26-bodenleger.mp4",
+  "stil": "text"
  },
  {
   "datum": "2026-10-26",
@@ -54,7 +57,8 @@
    "ticker",
    "cta"
   ],
-  "datei": "media/m/2026-10-26-entruempelung.mp4"
+  "datei": "media/m/2026-10-26-entruempelung.mp4",
+  "stil": "text"
  },
  {
   "datum": "2026-10-26",
@@ -68,7 +72,8 @@
    "bignumber",
    "cta"
   ],
-  "datei": "media/m/2026-10-26-lieferung.mp4"
+  "datei": "media/m/2026-10-26-lieferung.mp4",
+  "stil": "text"
  },
  {
   "datum": "2026-10-26",
@@ -82,7 +87,8 @@
    "bignumber",
    "cta"
   ],
-  "datei": "media/m/2026-10-26-reinigung.mp4"
+  "datei": "media/m/2026-10-26-reinigung.mp4",
+  "stil": "text"
  },
  {
   "datum": "2026-10-26",
@@ -96,7 +102,8 @@
    "steps",
    "cta"
   ],
-  "datei": "media/m/2026-10-26-sicherheitsdienst.mp4"
+  "datei": "media/m/2026-10-26-sicherheitsdienst.mp4",
+  "stil": "text"
  },
  {
   "datum": "2026-10-26",
@@ -110,7 +117,8 @@
    "ticker",
    "cta"
   ],
-  "datei": "media/m/2026-10-26-umzug.mp4"
+  "datei": "media/m/2026-10-26-umzug.mp4",
+  "stil": "text"
  },
  {
   "datum": "2026-10-26",
@@ -124,7 +132,8 @@
    "bignumber",
    "cta"
   ],
-  "datei": "media/m/2026-10-26-verkehrssicherung.mp4"
+  "datei": "media/m/2026-10-26-verkehrssicherung.mp4",
+  "stil": "text"
  },
  {
   "datum": "2026-10-27",
@@ -138,7 +147,8 @@
    "bignumber",
    "cta"
   ],
-  "datei": "media/m/2026-10-27-reinigung.mp4"
+  "datei": "media/m/2026-10-27-reinigung.mp4",
+  "stil": "text"
  },
  {
   "datum": "2026-10-27",
@@ -152,104 +162,105 @@
    "bignumber",
    "cta"
   ],
-  "datei": "media/m/2026-10-27-umzug.mp4"
+  "datei": "media/m/2026-10-27-umzug.mp4",
+  "stil": "text"
  },
  {
   "datum": "2026-10-27",
   "dienstleistung": "Lieferung & Kurier",
-  "hook": "Weihnachtsgeschäft naht!",
-  "idee": "Gewerbe/Händler: Logistik vor dem Weihnachtsgeschäft absichern",
+  "hook": "Muss schnell geliefert werden?",
+  "idee": "Comic: Kurier fährt im Regen vor und bringt Pakete zur Haustür",
   "szenen": [
-   "hook",
-   "statement",
-   "ticker",
-   "bignumber",
+   "wave",
+   "work",
+   "thumbs",
    "cta"
   ],
-  "datei": "media/m/2026-10-27-lieferung.mp4"
+  "datei": "media/m/2026-10-27-comic-lieferung.mp4",
+  "stil": "comic"
  },
  {
   "datum": "2026-10-27",
   "dienstleistung": "Sicherheitsdienst",
-  "hook": "Es wird früher dunkel.",
-  "idee": "Zeitumstellung: lange dunkle Abende, Gelände unbewacht vs. Streife/Werkschutz",
+  "hook": "Nachts alles sicher?",
+  "idee": "Comic: Wachmann dreht nachts mit Taschenlampe Streife am Lager",
   "szenen": [
-   "hook",
-   "versus",
-   "list",
-   "ticker",
+   "idle",
+   "work",
+   "thumbs",
    "cta"
   ],
-  "datei": "media/m/2026-10-27-sicherheitsdienst.mp4"
+  "datei": "media/m/2026-10-27-comic-sicherheitsdienst.mp4",
+  "stil": "comic"
  },
  {
   "datum": "2026-10-27",
   "dienstleistung": "Entrümpelung",
-  "hook": "Mieter weg. Sachen noch da?",
-  "idee": "Vermieter: Wohnung nach Auszug leer räumen lassen, 3 Schritte",
+  "hook": "So viel Kram?!",
+  "idee": "Comic: Figur wirft Gerümpel im Schnee in die Mulde",
   "szenen": [
-   "hook",
-   "statement",
-   "steps",
-   "bignumber",
+   "shock",
+   "work",
+   "celebrate",
    "cta"
   ],
-  "datei": "media/m/2026-10-27-entruempelung.mp4"
+  "datei": "media/m/2026-10-27-comic-entruempelung.mp4",
+  "stil": "comic"
  },
  {
   "datum": "2026-10-27",
   "dienstleistung": "Verkehrssicherung",
-  "hook": "Wussten Sie schon?",
-  "idee": "Arbeiten auf Gehweg/Straße brauchen oft verkehrsrechtliche Anordnung – Checkliste vorher klären",
+  "hook": "Baustelle an der Straße?",
+  "idee": "Comic: Arbeiter stellt Leitkegel, Absperrschranke und Warnschild auf",
   "szenen": [
-   "hook",
-   "statement",
-   "list",
-   "ticker",
+   "walk_in",
+   "work",
+   "point",
    "cta"
   ],
-  "datei": "media/m/2026-10-27-verkehrssicherung.mp4"
+  "datei": "media/m/2026-10-27-comic-verkehrssicherung.mp4",
+  "stil": "comic"
  },
  {
   "datum": "2026-10-27",
   "dienstleistung": "Maler",
-  "hook": "Streichen im Winter?",
-  "idee": "Saison: Fassade bei mildem Wetter, Innenräume ganzjährig; Vorbereitung in 3 Schritten",
+  "hook": "Wand grau und fleckig?",
+  "idee": "Comic: Maler rollt fleckige Wand grün – vorher/nachher",
   "szenen": [
-   "hook",
-   "versus",
-   "steps",
-   "bignumber",
+   "walk_in",
+   "work",
+   "thumbs",
    "cta"
   ],
-  "datei": "media/m/2026-10-27-maler.mp4"
+  "datei": "media/m/2026-10-27-comic-maler.mp4",
+  "stil": "comic"
  },
  {
   "datum": "2026-10-27",
   "dienstleistung": "Abbrucharbeiten",
-  "hook": "3 Fragen vor dem Abbruch!",
-  "idee": "Kosten-Fallen vermeiden: 3 Fragen ans Angebot (Entsorgung, Umfang, Zeitplan)",
+  "hook": "Die Wand muss weg?",
+  "idee": "Comic: Arbeiter reißt Ziegelwand mit Vorschlaghammer ab, Schuttberg wächst",
   "szenen": [
-   "hook",
-   "list",
-   "statement",
-   "ticker",
+   "shock",
+   "work",
+   "celebrate",
    "cta"
   ],
-  "datei": "media/m/2026-10-27-abbruch.mp4"
+  "datei": "media/m/2026-10-27-comic-abbruch.mp4",
+  "stil": "comic"
  },
  {
   "datum": "2026-10-27",
   "dienstleistung": "Bodenleger",
-  "hook": "Parkett oder Vinyl?",
-  "idee": "Entscheidungshilfe: Fußbodenheizung, Haustiere, Feuchträume",
+  "hook": "Neuer Boden gefällig?",
+  "idee": "Comic: Bodenleger verlegt kniend Diele für Diele",
   "szenen": [
-   "hook",
-   "statement",
-   "ticker",
-   "bignumber",
+   "think",
+   "work",
+   "thumbs",
    "cta"
   ],
-  "datei": "media/m/2026-10-27-bodenleger.mp4"
+  "datei": "media/m/2026-10-27-comic-bodenleger.mp4",
+  "stil": "comic"
  }
 ]
