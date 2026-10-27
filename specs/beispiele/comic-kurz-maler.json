@@ -1,0 +1,6 @@
+{"trade":"maler","bpm":124,"progression":2,"seed":21,"start_prog":0.0,"env":"indoor","theme":{"accent":"#f472b6","caption":"#ffffff","paint":"#f472b6","wall":"#e0f2fe"},
+"look":{"skin":"#8d5524","hair":"#111111","beard":true,"shirt":"#facc15","overalls":"#ffffff","hat":"none"},
+"scenes":[
+{"beats":6,"action":"work","caption":["Pink oder","lieber Grau?"],"fx":"ZACK!","bubble":"Sie entscheiden!"},
+{"beats":4,"action":"work","caption":["Kommentieren Sie:","PINK oder GRAU?"]},
+{"beats":5,"action":"cta","lines":["Maler","finden!"],"button":"auftragexpress24.de","sub":"Bis zu 3 Angebote – kostenlos","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}]}

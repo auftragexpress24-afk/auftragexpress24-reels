@@ -12,7 +12,8 @@ Spec (JSON):
   scenes       Liste, jede Szene: {"beats": n, "action": ..., "caption": [1-3 Zeilen], "bubble": "Sprechblase",
                                     "fx": "ZACK!", "flip": bool}
      action:   work (Figur arbeitet, Fortschritt läuft weiter) | walk_in | wave | thumbs | think | shock | celebrate | point | idle
-               cta  (letzte Szene): {"lines":[..], "button","sub","phone","foot"}
+               cta  (letzte Szene): {"lines":[..], "button","sub","phone","foot"}; beats < 8 = kurzer Abspann (alles in halber Zeit)
+  Erste Szene: Bildunterschrift steht sofort ab Bild 1 (Hook ohne Wartezeit) – am besten mit "work" oder "shock" starten.
   start_prog   0..1: Arbeitsfortschritt zu Beginn (z. B. 0 = vorher, Ende = nachher)
 Der Arbeitsfortschritt (gestrichene Wand, verlegte Dielen, geladene Kartons ...) wächst nur in "work"-Szenen
 und bleibt in den anderen Szenen stehen – so entsteht ein Vorher/Nachher.
@@ -564,7 +565,7 @@ class Maler(Trade):
 
     def work(self, t, prog, st):
         col, ry = self.roller(t, prog)
-        x = min(col - 230, 470)
+        x = col - 250
         S = (x + 68, FY - 236 - 186)
         R_ = (col, ry + 40)
         d = math.hypot(R_[0] - S[0], R_[1] - S[1]); ux, uy = (R_[0] - S[0]) / d, (R_[1] - S[1]) / d
@@ -1140,25 +1141,27 @@ class Reel:
         bw = min(1000, max(widths) + 110); lh = size * 0.98
         bh = lh * len(lines) + 70 + (70 if sub else 0)
         cx, top = W / 2, 190
-        k = back_out(t / 0.3)
+        instant = idx == 0   # Hook: Text steht ab Bild 1 (kein Warten in der ersten Sekunde)
+        k = 1 + 0.12 * max(0.0, 1 - t / 0.25) if instant else back_out(t / 0.3)
         c.save(); c.translate(cx, top + bh / 2); c.rotate(-0.025 if idx % 2 == 0 else 0.025); c.scale(k, k)
         rr(c, -bw / 2 + 14, -bh / 2 + 14, bw, bh, 18); src(c, INK); c.fill()
         rr(c, -bw / 2, -bh / 2, bw, bh, 18); fill_ol(c, hx(self.theme["caption"]), OL + 2)
         for i, ln in enumerate(lines):
-            t0 = i * B / 2
+            t0 = 0 if instant else i * B / 2
             if t < t0: continue
-            kk = back_out((t - t0) / 0.22)
+            kk = 1.0 if instant else back_out((t - t0) / 0.22)
             y = -bh / 2 + 35 + lh * (i + 0.5)
             text(c, ln, 0, y, size, INK, maxw=bw - 70, sc=0.5 + 0.5 * kk)
-        if sub and t >= len(lines) * B / 2:
+        if sub and t >= (0.5 * B if instant else len(lines) * B / 2):
             text(c, sub, 0, bh / 2 - 60, 60, hx(self.theme["accent"]) if self.theme["caption"] != self.theme["accent"] else INK,
-                 stroke=INK, sw=4, maxw=bw - 80, sc=back_out((t - len(lines) * B / 2) / 0.25))
+                 stroke=INK, sw=4, maxw=bw - 80, sc=back_out((t - (0.5 * B if instant else len(lines) * B / 2)) / 0.25))
         c.restore()
 
-    def bubble(self, c, t, txt, J, face):
+    def bubble(self, c, t, txt, J, face, idx=1):
         B = self.B
-        if t < B: return
-        k = back_out((t - B) / 0.3)
+        d = B / 2 if idx == 0 else B
+        if t < d: return
+        k = back_out((t - d) / 0.3)
         lines = txt.split("\n")
         size = 70
         tw = max(text_w(c, ln, size) for ln in lines)
@@ -1244,29 +1247,30 @@ class Reel:
 
     def cta(self, c, t, s):
         B = self.B
+        stp = B / 2 if s.get("beats", 8) < 8 else B   # kurzer Abspann: alles in der halben Zeit
         acc = hx(self.theme["accent"])
         src(c, acc); c.paint()
         halftone(c, 0, 0, W, H, mix(acc, (0, 0, 0), 0.12), 32, 8, fade="up")
         burst(c, W / 2, 1560, 560, 420, 16, t * 0.3, mix(acc, (1, 1, 1), 0.45), OL)
         ls = s.get("lines", ["Jetzt anfragen!"])
         for i, ln in enumerate(ls):
-            if t < i * B / 2: continue
-            k = back_out((t - i * B / 2) / 0.25)
+            if t < i * stp / 2: continue
+            k = back_out((t - i * stp / 2) / 0.25)
             text(c, ln, W / 2, 330 + i * 125, 118, (1, 1, 1), font="Luckiest Guy", stroke=INK, sw=8, maxw=960, sc=k, shadow=10)
-        if t >= B:
-            pulse = 1 + 0.05 * math.sin((t - B) * 2 * PI / B) if t > B + 0.3 else back_out((t - B) / 0.3)
+        if t >= stp:
+            pulse = 1 + 0.05 * math.sin((t - stp) * 2 * PI / B) if t > stp + 0.3 else back_out((t - stp) / 0.3)
             bw, bh = 900 * pulse, 170 * pulse
             c.save(); c.translate(W / 2, 700)
             rr(c, -bw / 2 + 14, -bh / 2 + 14, bw, bh, bh / 2); src(c, INK); c.fill()
             rr(c, -bw / 2, -bh / 2, bw, bh, bh / 2); fill_ol(c, (1, 1, 1), OL + 2)
             c.restore()
             text(c, s.get("button", "auftragexpress24.de"), W / 2, 704, 80 * pulse, INK, font="Luckiest Guy", maxw=bw - 90)
-        if s.get("sub") and t >= 2 * B:
-            text(c, s["sub"], W / 2, 870, 72, (1, 1, 1), stroke=INK, sw=5, maxw=960, sc=back_out((t - 2 * B) / 0.25))
-        if s.get("phone") and t >= 3 * B:
-            text(c, s["phone"], W / 2, 975, 82, INK, font="Luckiest Guy", stroke=(1, 1, 1), sw=5, maxw=960, sc=back_out((t - 3 * B) / 0.25))
-        if s.get("foot") and t >= 4 * B:
-            text(c, s["foot"], W / 2, 1085, 64, (1, 1, 1), stroke=INK, sw=5, maxw=960, sc=back_out((t - 4 * B) / 0.25))
+        if s.get("sub") and t >= 2 * stp:
+            text(c, s["sub"], W / 2, 870, 72, (1, 1, 1), stroke=INK, sw=5, maxw=960, sc=back_out((t - 2 * stp) / 0.25))
+        if s.get("phone") and t >= 3 * stp:
+            text(c, s["phone"], W / 2, 975, 82, INK, font="Luckiest Guy", stroke=(1, 1, 1), sw=5, maxw=960, sc=back_out((t - 3 * stp) / 0.25))
+        if s.get("foot") and t >= 4 * stp:
+            text(c, s["foot"], W / 2, 1085, 64, (1, 1, 1), stroke=INK, sw=5, maxw=960, sc=back_out((t - 4 * stp) / 0.25))
         pose = dict(ra=(2.4, 2.6 + 0.45 * math.sin(t * 2 * PI / (B / 2))), la=(-1.3, -2.9), thumb="la",
                     mouth="open", brows="happy", bob=-14 * abs(math.sin(t * PI / B)))
         person(c, W / 2, 1890, 0.92, self.look, pose, 0, t)
@@ -1293,7 +1297,7 @@ class Reel:
             if st.get("fx"):
                 hit_local = [h - sb * B for h in self.hits if sb * B <= h < se * B]
                 self.fx(c, tl, st["fx"], tuple(st.get("fx_pos", self.trade.fx_pos)), hit_local)
-            if st.get("bubble"): self.bubble(c, tl, st["bubble"], J, face)
+            if st.get("bubble"): self.bubble(c, tl, st["bubble"], J, face, idx)
             c.restore()
             self.caption(c, tl, st.get("caption", []), idx, st.get("sub"))
         c.restore()
@@ -1322,9 +1326,10 @@ class Reel:
         for sb, se, s in self.scenes:
             st = sb * B
             if s.get("action") == "cta":
-                ev += [(st + B, "pop"), (st + 3 * B, "pop"), (st + 4 * B, "pop")]
+                stp = B / 2 if s.get("beats", 8) < 8 else B
+                ev += [(st + stp, "pop"), (st + 3 * stp, "pop"), (st + 4 * stp, "pop")]
                 continue
-            ev += [(st + i * B / 2, "pop") for i in range(len(s.get("caption", [])))]
+            ev += [(st + (0 if sb == 0 else i * B / 2), "pop") for i in range(1 if sb == 0 else len(s.get("caption", [])))]
             if s.get("bubble"): ev.append((st + B, "pop"))
         ev += [(h, "pop") for h in self.hits]
         return [e for e in ev if e[0] < self.TOTAL]
