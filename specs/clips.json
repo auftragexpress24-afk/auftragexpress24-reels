@@ -1,0 +1,57 @@
+{
+ "_info": "Geprüfte Clips (Pexels-Lizenz: kostenlos, gewerblich nutzbar). Nur diese verwenden oder neue Clips erst nach Sichtprüfung ergänzen: Menschen gepflegt, ordentlich, professionell; keine freizügigen, unseriösen, Polizei-/Militär- oder Gewalt-Szenen. Stockpersonen nie als 'unsere Handwerker' oder Partner darstellen. pexels = Video-ID, pexels_photo = Foto-ID (wird als langsame Kamerafahrt gezeigt). format: hoch/quer. focus = Bildausschnitt bei Querformat (0 links .. 1 rechts).",
+ "maler": [
+  {"pexels": 5799415, "format": "hoch", "inhalt": "junge, gepflegte Malerin in weißem Hemd streicht helle Wand terrakotta, Leiter", "rolle": "hook"},
+  {"pexels_photo": 5799084, "format": "quer", "focus": 0.92, "inhalt": "dieselbe Malerin lächelt in die Kamera, Rolle in der Hand", "rolle": "ergebnis"},
+  {"pexels": 10533410, "format": "hoch", "inhalt": "Farbrolle streicht Weiß über gelbe Wand (sehr befriedigend)", "rolle": "arbeit"},
+  {"pexels": 5583173, "format": "quer", "inhalt": "Farbrolle auf sauberer weißer Wand", "rolle": "arbeit"},
+  {"pexels": 6764461, "format": "quer", "inhalt": "zwei junge Frauen planen die Wandfarbe", "rolle": "idee"},
+  {"pexels": 6473930, "format": "hoch", "inhalt": "Maler mit Farbsprühgerät in Neubau", "rolle": "profi"}
+ ],
+ "reinigung": [
+  {"pexels": 4440686, "format": "hoch", "inhalt": "Hand mit Handschuh putzt Fenster, Sprühflasche, hell", "rolle": "hook"},
+  {"pexels": 6196264, "format": "hoch", "inhalt": "Reinigungskraft in orangem Overall putzt Glasfront in moderner Wohnung", "rolle": "profi"},
+  {"pexels": 7641635, "format": "quer", "inhalt": "junger Mann putzt Fenster von innen", "rolle": "arbeit"}
+ ],
+ "umzug": [
+  {"pexels": 7347874, "format": "hoch", "inhalt": "Familie trägt Kartons fröhlich ins helle neue Haus", "rolle": "hook"},
+  {"pexels": 7463923, "format": "hoch", "inhalt": "zwei junge Männer tragen Kartons durch hellen Raum", "rolle": "arbeit"},
+  {"pexels": 5054382, "format": "hoch", "inhalt": "Mann im Transporter voller Kartons, Karton in der Hand", "rolle": "profi"},
+  {"pexels": 5043690, "format": "quer", "inhalt": "Mann trägt zwei Kartons, blauer Himmel", "rolle": "arbeit"}
+ ],
+ "lieferung": [
+  {"pexels": 6715794, "format": "quer", "inhalt": "Kurier in roter Uniform an weißer Haustür, Übergabe an Kundin", "rolle": "hook"},
+  {"pexels": 7362668, "format": "hoch", "inhalt": "Kurier stellt Paket vor die Haustür", "rolle": "arbeit"},
+  {"pexels": 6170438, "format": "hoch", "inhalt": "Mann steigt mit Paket aus weißem Transporter", "rolle": "arbeit"},
+  {"pexels": 4170161, "format": "quer", "inhalt": "Paketübergabe von Hand zu Hand", "rolle": "ergebnis"},
+  {"pexels": 5054382, "format": "hoch", "inhalt": "Fahrer im Transporter voller Pakete", "rolle": "profi"}
+ ],
+ "abbruch": [
+  {"pexels": 855672, "format": "quer", "inhalt": "Arbeiter mit Helm schlägt Wand auf, Ziegel brechen", "rolle": "hook"},
+  {"pexels": 1654928, "format": "hoch", "inhalt": "Silhouette mit Vorschlaghammer im Rohbau", "rolle": "arbeit"},
+  {"pexels": 10971670, "format": "quer", "inhalt": "Bagger reißt altes Haus ab", "rolle": "profi"}
+ ],
+ "sicherheitsdienst": [
+  {"pexels": 39839700, "format": "hoch", "inhalt": "Sicherheitsmann in Uniform mit verschränkten Armen vor Geschäft", "rolle": "hook"},
+  {"pexels": 39609963, "format": "quer", "inhalt": "Sicherheitskraft bei Veranstaltung unter freiem Himmel", "rolle": "event"}
+ ],
+ "entruempelung": [
+  {"pexels": 7463923, "format": "hoch", "inhalt": "zwei junge Männer tragen Kartons hinaus", "rolle": "arbeit"},
+  {"pexels": 12588076, "format": "quer", "inhalt": "Bagger lädt Gerümpel in Container", "rolle": "arbeit"},
+  {"pexels": 32938070, "format": "quer", "inhalt": "Kartons im Container", "rolle": "arbeit"},
+  {"pexels": 7578014, "format": "quer", "inhalt": "Mann steht zufrieden im leeren, hellen Raum", "rolle": "ergebnis"},
+  {"pexels": 7578509, "format": "quer", "inhalt": "junge Familie sitzt im leeren, hellen Raum", "rolle": "ergebnis"}
+ ],
+ "verkehrssicherung": [
+  {"pexels": 38414842, "format": "hoch", "inhalt": "Leitkegel und Minibagger an städtischer Baustelle", "rolle": "hook"},
+  {"pexels": 7163092, "format": "quer", "inhalt": "Arbeiter in Warnwesten hinter orangem Absperrzaun", "rolle": "arbeit"},
+  {"pexels": 4430486, "format": "quer", "inhalt": "Straßenbau von oben mit Leitkegeln", "rolle": "uebersicht"},
+  {"pexels": 4430419, "format": "quer", "inhalt": "abgesicherte Baustelle mit Absperrungen von oben", "rolle": "uebersicht"}
+ ],
+ "bodenleger": [
+  {"pexels_photo": 4263067, "format": "quer", "focus": 0.4, "inhalt": "Laminat wird verlegt (Hände, Nahaufnahme)", "rolle": "arbeit"},
+  {"pexels_photo": 29181494, "format": "quer", "focus": 0.75, "inhalt": "Fliesenleger mit Helm trägt Kleber auf", "rolle": "profi"},
+  {"pexels": 19228170, "format": "quer", "inhalt": "heller Flur mit glänzendem Fischgrät-Parkett", "rolle": "ergebnis"},
+  {"pexels": 29513615, "format": "hoch", "inhalt": "sonniger Raum mit warmem Holzboden", "rolle": "hook"}
+ ]
+}

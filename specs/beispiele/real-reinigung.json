@@ -1,6 +1,0 @@
-{"voice":"thorsten-high","speed":0.95,"theme":{"accent":"#2dd4bf"},"music":{"bpm":116,"progression":4,"seed":9,"volume":0.14},
-"segments":[
-{"say":"Keine Lust auf Fensterputzen?","headline":["Keine Lust auf","Fensterputzen?"],"clip":{"id":9374},"start":0.5},
-{"say":"Lassen Sie das doch einfach die Profis machen.","clip":{"id":9375},"start":1.0},
-{"say":"Ob Fenster, Grundreinigung oder das ganze Gebäude: Sie bekommen kostenlos bis zu drei Angebote. Antwort innerhalb von vierundzwanzig Stunden.","show":"Ob Fenster, Grundreinigung oder das ganze Gebäude: Sie bekommen kostenlos bis zu 3 Angebote. Antwort innerhalb von 24 Stunden.","clip":{"id":9373},"start":0.5}],
-"cta":{"say":"Auftrag Express vierundzwanzig. Der Link ist in der Bio.","lines":["Reinigung gesucht?","Wir helfen gern."],"button":"auftragexpress24.de","sub":"Antwort in 24 Stunden","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}}
