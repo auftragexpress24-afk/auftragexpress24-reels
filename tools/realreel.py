@@ -15,7 +15,7 @@ Spec (JSON):
     {"say": "Text, so wie er gesprochen wird (Zahlen ausschreiben!)",
      "show": "Untertitel-Text (optional, sonst = say)",
      "headline": ["Große Zeile", "oben"],          # optional, groß oben; in Szene 1 = Hook ab Bild 1
-     "clip": {"q": "painter roller wall"} | {"id": 85347},   # Pixabay-Suche (englisch) oder feste ID
+     "clip": {"q": "painter roller wall"} | {"id": 85347} | {"pexels": 5799415},   # Pixabay-Suche/-ID oder Pexels-ID
      "pick": 0,                                    # welcher Treffer der Suche (0 = erster)
      "start": 1.5,                                 # Sekunde im Clip, ab der gezeigt wird
      "focus": 0.5,                                 # horizontaler Bildausschnitt 0 (links) .. 1 (rechts)
@@ -62,7 +62,7 @@ def ease_out(x): x = clamp(x); return 1 - (1 - x) ** 3
 def back_out(x): x = clamp(x); c = 1.7; return max(0.01, 1 + (c + 1) * (x - 1) ** 3 + c * (x - 1) ** 2)
 
 
-UA = {"User-Agent": "Mozilla/5.0 (AuftragExpress24 Reels)"}
+UA = {"User-Agent": "AuftragExpress24-Reels/1.0"}
 
 
 def get(url, timeout=60):
@@ -152,7 +152,21 @@ def by_id(i):
     return hits[0]
 
 
+def probe_wh(path):
+    o = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+                        "-of", "csv=p=0", path], capture_output=True, text=True).stdout.strip().split(",")
+    return int(o[0]), int(o[1])
+
+
 def resolve_clip(c, pick=0, need=3.0):
+    if "pexels" in c:   # Pexels-Video über den normalen Download-Link (Pexels-Lizenz: frei, auch gewerblich)
+        pid = int(c["pexels"])
+        path = os.path.join(CACHE, "clips", f"pexels_{pid}.mp4")
+        fetch(f"https://www.pexels.com/download/video/{pid}/", path)
+        w, h = probe_wh(path)
+        hit = {"id": f"pexels-{pid}", "pageURL": f"https://www.pexels.com/video/{pid}/", "user": "", "tags": "",
+               "videos": {"medium": {"width": w, "height": h}}}
+        return path, hit
     if "id" in c: hit = by_id(c["id"])
     else:
         hits = [h for h in search(c["q"]) if h.get("duration", 0) >= min(need, 6)] or search(c["q"])

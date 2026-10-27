@@ -1,6 +1,7 @@
-{"voice":"thorsten-high","speed":0.95,"theme":{"accent":"#facc15"},"music":{"bpm":108,"progression":2,"seed":4,"volume":0.14},
+{"voice":"thorsten-high","speed":0.95,"theme":{"accent":"#fb923c"},"music":{"bpm":108,"progression":2,"seed":4,"volume":0.14},
 "segments":[
-{"say":"Ihre Wände sehen ein bisschen müde aus?","headline":["Ihre Wände","sehen müde aus?"],"clip":{"id":85341},"start":0.5},
-{"say":"Ein frischer Anstrich wirkt wie ein neues Zuhause.","clip":{"id":85347},"start":1.0},
-{"say":"Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Malerbetrieben.","show":"Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Malerbetrieben.","clip":{"id":85346},"start":0.5}],
+{"say":"Lust auf eine neue Wandfarbe?","headline":["Lust auf eine","neue Wandfarbe?"],"clip":{"pexels":5799415},"start":1.0},
+{"say":"Sie haben die Idee.","clip":{"pexels":6764461},"start":2.0},
+{"say":"Ein Malerbetrieb setzt sie sauber um.","clip":{"pexels":10533410},"start":3.0},
+{"say":"Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Malerbetrieben.","show":"Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Malerbetrieben.","clip":{"pexels":5799415},"start":7.0}],
 "cta":{"say":"Ganz einfach anfragen. Der Link ist in der Bio.","lines":["Maler gesucht?","Wir helfen gern."],"button":"auftragexpress24.de","sub":"Bis zu 3 Angebote – kostenlos","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}}
