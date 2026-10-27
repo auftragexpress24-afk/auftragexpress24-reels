@@ -167,6 +167,23 @@ def resolve_clip(c, pick=0, need=3.0):
         hit = {"id": f"pexels-{pid}", "pageURL": f"https://www.pexels.com/video/{pid}/", "user": "", "tags": "",
                "videos": {"medium": {"width": w, "height": h}}}
         return path, hit
+    if "pexels_photo" in c:   # Pexels-Foto als ruhige Kamerafahrt (langsamer Zoom), 8 Sekunden
+        pid = int(c["pexels_photo"])
+        img = os.path.join(CACHE, "photos", f"pexels_{pid}.jpg")
+        fetch(f"https://images.pexels.com/photos/{pid}/pexels-photo-{pid}.jpeg?auto=compress&w=3000", img)
+        path = os.path.join(CACHE, "clips", f"pexels_photo_{pid}.mp4")
+        if not os.path.exists(path):
+            from PIL import Image as _I
+            w0, h0 = _I.open(img).size
+            ow, oh = (1920, int(1920 * h0 / w0) // 2 * 2) if w0 >= h0 else (int(1920 * w0 / h0) // 2 * 2, 1920)
+            vf = (f"scale={ow * 2}:-2,zoompan=z='min(1+0.0009*on,1.2)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+                  f":d={8 * FPS}:s={ow}x{oh}:fps={FPS}")
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", img, "-vf", vf, "-frames:v", str(8 * FPS),
+                            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", path], check=True)
+        w, h = probe_wh(path)
+        hit = {"id": f"pexels-photo-{pid}", "pageURL": f"https://www.pexels.com/photo/{pid}/", "user": "", "tags": "",
+               "videos": {"medium": {"width": w, "height": h}}}
+        return path, hit
     if "id" in c: hit = by_id(c["id"])
     else:
         hits = [h for h in search(c["q"]) if h.get("duration", 0) >= min(need, 6)] or search(c["q"])
