@@ -1,0 +1,6 @@
+{"voice":"thorsten-high","speed":0.92,"theme":{"accent":"#f9a8d4"},"music":{"bpm":96,"progression":1,"seed":12,"volume":0.12},
+"segments":[
+{"say":"Lust auf ein gemütliches Zuhause im Winter?","headline":["Gemütlich in","den Winter?"],"clip":{"pexels":6764461},"start":1.0},
+{"say":"Warme Wandfarben machen die dunkle Jahreszeit viel freundlicher.","clip":{"pexels":5799415},"start":6.0},
+{"say":"Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote von geprüften Malerbetrieben.","show":"Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote von geprüften Malerbetrieben.","clip":{"pexels":5583173},"start":2.0}],
+"cta":{"say":"Ganz einfach anfragen. Der Link ist in der Bio.","lines":["Neue Wandfarbe?","Wir helfen gern."],"button":"auftragexpress24.de","sub":"Antwort in 24 Stunden","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}}

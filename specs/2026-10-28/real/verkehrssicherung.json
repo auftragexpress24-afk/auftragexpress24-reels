@@ -1,0 +1,6 @@
+{"voice":"thorsten-high","speed":0.92,"theme":{"accent":"#fbbf24"},"music":{"bpm":100,"progression":4,"seed":23,"volume":0.12},
+"segments":[
+{"say":"Jetzt wird es wieder früh dunkel.","headline":["Früh dunkel?","Gut gesichert!"],"clip":{"pexels":7163092},"start":1.0,"focus":0.3},
+{"say":"Gut sichtbare Absperrungen und Schilder helfen allen, die vorbeikommen.","clip":{"pexels":38414842},"start":4.0},
+{"say":"Bei Auftrag Express vierundzwanzig bekommen Sie kostenlos bis zu drei Angebote. Antwort innerhalb von vierundzwanzig Stunden.","show":"Bei AuftragExpress24 bekommen Sie kostenlos bis zu 3 Angebote. Antwort innerhalb von 24 Stunden.","clip":{"pexels":4430486},"start":3.0}],
+"cta":{"say":"Ganz einfach anfragen. Der Link ist in der Bio.","lines":["Baustelle geplant?","Wir helfen gern."],"button":"auftragexpress24.de","sub":"Anfrage in ca. 2 Minuten","phone":"Tel. 02133 7787688","foot":"Link in der Bio"}}
